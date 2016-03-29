@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		F504C4A61CA65BA900A7866C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504C4A51CA65BA900A7866C /* AppDelegate.swift */; };
-		F504C4A81CA65BA900A7866C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504C4A71CA65BA900A7866C /* ViewController.swift */; };
 		F504C4AB1CA65BA900A7866C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F504C4A91CA65BA900A7866C /* Main.storyboard */; };
 		F504C4AD1CA65BA900A7866C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F504C4AC1CA65BA900A7866C /* Assets.xcassets */; };
 		F504C4B01CA65BA900A7866C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F504C4AE1CA65BA900A7866C /* LaunchScreen.storyboard */; };
+		F504C4B81CA6621500A7866C /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504C4B71CA6621500A7866C /* ProductViewController.swift */; };
+		F504C4BA1CA6672E00A7866C /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504C4B91CA6672E00A7866C /* ContactViewController.swift */; };
+		F504C4BC1CA6FC8F00A7866C /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504C4BB1CA6FC8F00A7866C /* ProductsTableViewController.swift */; };
+		F504C4BE1CA8955600A7866C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504C4BD1CA8955600A7866C /* Product.swift */; };
+		F504C4C41CA89CFE00A7866C /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504C4C31CA89CFE00A7866C /* CartTableViewController.swift */; };
+		F504C4C61CA8A41D00A7866C /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504C4C51CA8A41D00A7866C /* Orders.swift */; };
+		F504C4C81CA8A44200A7866C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504C4C71CA8A44200A7866C /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F504C4A21CA65BA900A7866C /* GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F504C4A51CA65BA900A7866C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F504C4A71CA65BA900A7866C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F504C4AA1CA65BA900A7866C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F504C4AC1CA65BA900A7866C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F504C4AF1CA65BA900A7866C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F504C4B11CA65BA900A7866C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F504C4B71CA6621500A7866C /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		F504C4B91CA6672E00A7866C /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		F504C4BB1CA6FC8F00A7866C /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		F504C4BD1CA8955600A7866C /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F504C4C31CA89CFE00A7866C /* CartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewController.swift; sourceTree = "<group>"; };
+		F504C4C51CA8A41D00A7866C /* Orders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		F504C4C71CA8A44200A7866C /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				F504C4A51CA65BA900A7866C /* AppDelegate.swift */,
-				F504C4A71CA65BA900A7866C /* ViewController.swift */,
 				F504C4A91CA65BA900A7866C /* Main.storyboard */,
 				F504C4AC1CA65BA900A7866C /* Assets.xcassets */,
 				F504C4AE1CA65BA900A7866C /* LaunchScreen.storyboard */,
 				F504C4B11CA65BA900A7866C /* Info.plist */,
+				F504C4B71CA6621500A7866C /* ProductViewController.swift */,
+				F504C4B91CA6672E00A7866C /* ContactViewController.swift */,
+				F504C4BB1CA6FC8F00A7866C /* ProductsTableViewController.swift */,
+				F504C4BD1CA8955600A7866C /* Product.swift */,
+				F504C4C31CA89CFE00A7866C /* CartTableViewController.swift */,
+				F504C4C51CA8A41D00A7866C /* Orders.swift */,
+				F504C4C71CA8A44200A7866C /* Order.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -135,8 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F504C4A81CA65BA900A7866C /* ViewController.swift in Sources */,
+				F504C4B81CA6621500A7866C /* ProductViewController.swift in Sources */,
+				F504C4C61CA8A41D00A7866C /* Orders.swift in Sources */,
+				F504C4C81CA8A44200A7866C /* Order.swift in Sources */,
+				F504C4C41CA89CFE00A7866C /* CartTableViewController.swift in Sources */,
+				F504C4BC1CA6FC8F00A7866C /* ProductsTableViewController.swift in Sources */,
+				F504C4BE1CA8955600A7866C /* Product.swift in Sources */,
 				F504C4A61CA65BA900A7866C /* AppDelegate.swift in Sources */,
+				F504C4BA1CA6672E00A7866C /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +308,7 @@
 				F504C4B61CA65BA900A7866C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
